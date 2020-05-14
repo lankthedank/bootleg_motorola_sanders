@@ -23,17 +23,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, device/motorola/sanders/device.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
-TARGET_BOOTANIM_LOW_RES := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_ARCH := arm64
 PRODUCT_DEVICE := sanders
-PRODUCT_NAME := potato_sanders
+PRODUCT_NAME := bootleg_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_MODEL := Moto G (5S) Plus

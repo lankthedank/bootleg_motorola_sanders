@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/potato_sanders.mk
+	$(LOCAL_DIR)/bootleg_sanders.mk
 
 COMMON_LUNCH_CHOICES := \
-	potato_sanders-userdebug
+	bootleg_sanders-userdebug
